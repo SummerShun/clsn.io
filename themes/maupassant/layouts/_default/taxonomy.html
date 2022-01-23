@@ -28,7 +28,7 @@
         <div class="post-meta meta-category">
             |
             {{ range . }}
-            <a href='{{ "categories/" | relURL }}{{ . | urlize }}'>{{ . }}</a>
+            <a href='{{ "categories/" | relURL }}{{ . | urlize }}.html'>📂{{ . }}</a>
             {{ end }}
         </div>
         {{ end }}

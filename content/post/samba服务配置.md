@@ -2,6 +2,8 @@
 title: "samba服务配置"
 date: 2022-01-22T20:45:16+08:00
 draft: true
+categories:
+  - Linux运维
 ---
 ## 1、安装samba
 
