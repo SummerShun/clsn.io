@@ -2,46 +2,42 @@ baseURL = 'http://clsn.io/'
 defaultContentLanguage = "zh-cn"
 languageCode = 'zh-cn'
 title = 'CLSN - 惨绿少年博客'
-theme = "maupassant-hugo"
+theme = "maupassant"
 uglyurls = true
+hasCJKLanguage = true   # 中日韩语言支持
+enableRobotsTXT = true  # 爬虫支持
+PaginatePath = "page"  # 分页
+summaryLength = 140
 
 # 伪静态
-#[permalinks]
-#  posts = ":slug"
+[permalinks]
+  posts = ":slug"
+
+[author]
+    name = "惨绿少年"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-    pre = ""
-    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-    post = ""
-    name = "文章"
-    url = "/posts/"
-    # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
-    title = ""
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "标签"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "分类"
-    url = "/categories/"
-    title = ""
+    identifier = "archives"
+    name = "归档"
+    url = "/archives.html"
     weight = 3
-    [[menu.main]]
+
+  [[menu.main]]
     identifier = "about"
-    pre = ""
-    post = ""
     name = "关于"
-    url = "/about/"
-    title = ""
+    url = "/about.html"
     weight = 4
+
+[params.cc]
+    name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
+    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+[params]
+    localSearch = true
+    busuanzi = true
+
+[[params.links]]
+  title = "惨绿少年(博客园)"
+  name = "惨绿少年(博客园)"
+  url = "http://clsn.cnblogs.com" 
