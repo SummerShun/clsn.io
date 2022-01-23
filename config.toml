@@ -1,4 +1,4 @@
-baseURL = 'http://clsn.io/'
+baseURL = 'https://clsn.io/'
 defaultContentLanguage = "zh-cn"
 languageCode = 'zh-cn'
 title = 'CLSN - 惨绿少年博客'
