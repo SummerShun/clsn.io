@@ -41,3 +41,9 @@ summaryLength = 140
   title = "惨绿少年(博客园)"
   name = "惨绿少年(博客园)"
   url = "http://clsn.cnblogs.com" 
+
+[params.utteranc]
+    enable = true
+    repo = "SummerShun/clsn.io"
+    issueTerm = "pathname" #表示你选择以那种方式让github issue的评论和你的文章关联。
+    theme = "github-light" # 样式主题，有github-light和github-dark两种
