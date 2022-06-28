@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes 下的监控"
+title: "从kubectl top看K8S监控原理"
 date: 2022-06-28T17:50:07+08:00
 draft: true
 author: 惨绿少年

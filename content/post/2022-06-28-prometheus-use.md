@@ -1,5 +1,5 @@
 ---
-title: "Prometheus 监控"
+title: "高可用prometheus：常见问题"
 date: 2022-06-28T17:50:07+08:00
 draft: true
 author: 惨绿少年
