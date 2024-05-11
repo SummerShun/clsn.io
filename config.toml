@@ -45,7 +45,7 @@ summaryLength = 140
 [[params.links]]
   title = "Generate Ugly Avatar"
   name = "Generate Ugly Avatar"
-  url = "http://ugly.shun.host" 
+  url = "https://ugly.shun.host" 
   
 [[params.links]]
   title = "container-monitor"
