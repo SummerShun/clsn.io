@@ -43,6 +43,11 @@ summaryLength = 140
   url = "http://clsn.cnblogs.com" 
 
 [[params.links]]
+  title = "Generate Ugly Avatar"
+  name = "Generate Ugly Avatar"
+  url = "http://ugly.shun.host" 
+  
+[[params.links]]
   title = "container-monitor"
   name = "container-monitor"
   url = "https://yasongxu.gitbook.io/container-monitor/" 
