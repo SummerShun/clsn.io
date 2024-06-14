@@ -38,6 +38,11 @@ summaryLength = 140
     busuanzi = true
 
 [[params.links]]
+  title = "IP地址"
+  name = "IP地址"
+  url = "https://ipip.clsn.io" 
+
+[[params.links]]
   title = "惨绿少年(博客园)"
   name = "惨绿少年(博客园)"
   url = "http://clsn.cnblogs.com" 
