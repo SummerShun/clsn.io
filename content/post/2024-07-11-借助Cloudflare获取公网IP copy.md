@@ -8,6 +8,7 @@ Baidusubmit:
   - 1
 categories:
   - 监控方案 
+  - Cloudflare
 
 ---
 ## 创建Worker
